@@ -1,8 +1,6 @@
 # GT-AaaS Project
-- - -
 
 ## Adicionando uma nova chave pública ao arquivo de chaves autorizadas
-- - -
 
 Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
 
@@ -12,7 +10,6 @@ Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
 O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
 
 ## Criando um novo repositório no servidor
-- - -
 
 Os repositórios estão sendo mantidos na home.
 
@@ -30,7 +27,6 @@ Como esse é um repositório compartilhado, então preciso dar permissão de esc
 Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
 
 ## Clonando um repositório
-- - -
 
 	$ mkdir new_repository && cd new_repository
 	$ git clone lavid@150.165.205.157:<nome-do-repositorio>.git
