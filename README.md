@@ -14,13 +14,13 @@
 
 ## Configuração de Ambiente
 
-#### Instalando `libv8-dev`
+#### Instalando `libv8-dev`:
 
 	$ sudo apt-get install libv8-dev
 
 > Local onde as bibliotecas serão instaladas: /usr/lib/libv8.so*
 
-####  Instalando `node.js`
+####  Instalando `node.js`:
 
 	$ sudo apt-get update
 	$ sudo apt-get install -y python-software-properties python g++ make
@@ -28,11 +28,11 @@
 	$ sudo apt-get update
 	$ sudo apt-get install nodejs
 
-####  Instalando `node-gyp`
+####  Instalando `node-gyp`:
 
 	$ sudo npm install -g node-gyp
 
-#### Comandos para criar e compilar um módulo
+#### Comandos para criar e compilar um módulo:
 
 	$ node-gyp configure
 	$ node-gyp build
@@ -41,34 +41,32 @@
 
 #### Adicionando uma nova chave pública ao arquivo de chaves autorizadas
 
-Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
+Mova sua chave _*.pub_ para qualquer pasta:
 
-	$ cd ~/
-	$ cat ./*.pub >> ~/.ssh/authorized_files
+	$ cat _<path-da-chave>_/*.pub >> ~/.ssh/authorized_files
 
 > O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
 
 #### Criando um novo repositório no servidor
 
-Os repositórios estão sendo mantidos na home.
+Entre no diretório onde os repositórios irão ficar:
 
 	$ cd ~/
-	$ mkdir <nome-do-repositorio>.git && <nome-do-repositorio>.git
+	$ mkdir _<nome-do-repositorio>_.git && cd _<nome-do-repositorio>_.git
 	$ git --bare init
 
-Como esse é um repositório compartilhado, então preciso dar permissão de escrita ao grupo
+Como esse é um repositório compartilhado, então é necessário dar permissão de escrita ao grupo:
 
-	$ cd <nome-do-repositório>.git
 	$ sudo chmod -R g+ws *
-	$ sudo chgrp -R <nome-do-grupo> *
+	$ sudo chgrp -R _<nome-do-grupo>_ *
 	$ git config core.sharedRepository true
 
-> Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
+> Agora qualquer usuário cadastrado terá permissão de leitura/escrita no git através do protocolo SSH
 
-#### Clonando um repositório
+#### Clonando um repositório:
 
-	$ mkdir new_repository && cd new_repository
-	$ git clone lavid@150.165.205.157:<nome-do-repositorio>.git
+	$ mkdir _<folder>_ && cd _<folder>_
+	$ git clone _<nome-do-usuario>_@_<ip-do-servidor-git>_:_<nome-do-repositorio>_.git
 
 ## Configuração do Módulo Front-End
 
