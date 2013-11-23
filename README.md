@@ -14,13 +14,13 @@
 
 ## Configuração de Ambiente
 
-#### Instalar `libv8-dev`
+#### Instalando `libv8-dev`
 
 	$ sudo apt-get install libv8-dev
 
 > Local onde as bibliotecas serão instaladas: /usr/lib/libv8.so*
 
-####  Instalar ##### `node.js`
+####  Instalando `node.js`
 
 	$ sudo apt-get update
 	$ sudo apt-get install -y python-software-properties python g++ make
@@ -28,7 +28,7 @@
 	$ sudo apt-get update
 	$ sudo apt-get install nodejs
 
-####  Instalar ##### `node-gyp`
+####  Instalando `node-gyp`
 
 	$ sudo npm install -g node-gyp
 
