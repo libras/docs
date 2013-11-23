@@ -46,7 +46,7 @@ Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
 	$ cd ~/
 	$ cat ./*.pub >> ~/.ssh/authorized_files
 
-O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
+> O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
 
 #### Criando um novo repositório no servidor
 
@@ -63,7 +63,7 @@ Como esse é um repositório compartilhado, então preciso dar permissão de esc
 	$ sudo chgrp -R <nome-do-grupo> *
 	$ git config core.sharedRepository true
 
-Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
+> Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
 
 #### Clonando um repositório
 
