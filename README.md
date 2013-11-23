@@ -14,13 +14,13 @@
 
 ## Configuração de Ambiente
 
-### Instalar ##### `libv8-dev`
+#### Instalar `libv8-dev`
 
 	$ sudo apt-get install libv8-dev
 
 > Local onde as bibliotecas serão instaladas: /usr/lib/libv8.so*
 
-###  Instalar ##### `node.js`
+####  Instalar ##### `node.js`
 
 	$ sudo apt-get update
 	$ sudo apt-get install -y python-software-properties python g++ make
@@ -28,18 +28,18 @@
 	$ sudo apt-get update
 	$ sudo apt-get install nodejs
 
-###  Instalar ##### `node-gyp`
+####  Instalar ##### `node-gyp`
 
 	$ sudo npm install -g node-gyp
 
-### Comandos para criar e compilar um módulo
+#### Comandos para criar e compilar um módulo
 
 	$ node-gyp configure
 	$ node-gyp build
 
 ## Configuração do Git
 
-### Adicionando uma nova chave pública ao arquivo de chaves autorizadas
+#### Adicionando uma nova chave pública ao arquivo de chaves autorizadas
 
 Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
 
@@ -48,7 +48,7 @@ Mova sua chave *.pub para qualquer pasta (a home é usada no exemplo abaixo)
 
 O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
 
-### Criando um novo repositório no servidor
+#### Criando um novo repositório no servidor
 
 Os repositórios estão sendo mantidos na home.
 
@@ -65,7 +65,7 @@ Como esse é um repositório compartilhado, então preciso dar permissão de esc
 
 Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
 
-### Clonando um repositório
+#### Clonando um repositório
 
 	$ mkdir new_repository && cd new_repository
 	$ git clone lavid@150.165.205.157:<nome-do-repositorio>.git
