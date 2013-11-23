@@ -65,7 +65,7 @@ Como esse é um repositório compartilhado, então é necessário dar permissão
 
 #### Clonando um repositório:
 
-	$ mkdir _<folder>_ && cd _<folder>_
+	$ mkdir <folder> && cd <folder>
 	$ git clone <nome-do-usuario>@<ip-do-servidor-git>:<nome-do-repositorio>.git
 
 ## Configuração do Módulo Front-End
