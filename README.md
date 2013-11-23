@@ -12,6 +12,8 @@
 
 [5. Configuração do Módulo Core](#configuração-do-módulo-core)
 
+[6. Equipe](#equipe)
+
 ## Configuração de Ambiente
 
 #### Instalando `libv8-dev`:
@@ -73,3 +75,11 @@ Como esse é um repositório compartilhado, então é necessário dar permissão
 ## Configuração do Módulo Middleware
 
 ## Configuração do Módulo Core
+
+## Equipe
+
+![alt text][leonardo]
+[leonardo]: http://d.pr/i/m1gF "Leonardo Araújo"
+
+![alt text][vandhuy]
+[vandhuy]: http://d.pr/i/Dm1W "Vandhuy Martins"
