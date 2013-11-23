@@ -2,10 +2,13 @@
 
 ## Sumary
 
-[1. Configuração de Ambiente](#configuração-de-ambiente)
-[2. Configuração do Módulo Front-End](#configuração-do-módulo-front-end)
-[3. Configuração do Módulo Middleware](#configuração-do-módulo-middleware)
-[4. Configuração do Módulo Core](#configuração-do-módulo-core)
+	[1. Configuração de Ambiente](#configuração-de-ambiente)
+
+	[2. Configuração do Módulo Front-End](#configuração-do-módulo-front-end)
+
+	[3. Configuração do Módulo Middleware](#configuração-do-módulo-middleware)
+
+	[4. Configuração do Módulo Core](#configuração-do-módulo-core)
 
 ## Configuração de Ambiente
 
