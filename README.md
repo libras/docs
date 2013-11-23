@@ -1,5 +1,5 @@
 # GT-AaaS Project
-Take me to [clonando um repositório](#clonando-um-repositório)
+Take me to [clonando um repositório](#criando-um-novo-repositório-no-servidor)
 
 ## Adicionando uma nova chave pública ao arquivo de chaves autorizadas
 
