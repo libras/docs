@@ -1,14 +1,21 @@
-# Projeto LaaS (Libras as an Service) - LAViD
+# Projeto LaaS (Libras as an Service)
 
-## Instalação do **Ambiente**
+## Sumary
 
-## Instalação do Módulo **Front-End**
+```
+[1. Configuração de Ambiente](#configuração-de-ambiente)
+[2. Configuração do Módulo Front-End](#configuração-do-módulo-front-end)
+[3. Configuração do Módulo Middleware](#configuração-do-módulo-middleware)
+[4. Configuração do Módulo Core](#configuração-do-módulo-core)
+```
 
-## Instalação do Módulo **Middleware**
+## Configuração de Ambiente
 
-## Instalação do Módulo **Core**
+## Configuração do Módulo Front-End
 
-Take me to [clonando um repositório](#criando-um-novo-repositório-no-servidor)
+## Configuração do Módulo Middleware
+
+## Configuração do Módulo Core
 
 ## Adicionando uma nova chave pública ao arquivo de chaves autorizadas
 
