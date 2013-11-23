@@ -1,4 +1,13 @@
-# GT-AaaS Project
+# Projeto LaaS (Libras as an Service) - LAViD
+
+## Instalação do **Ambiente**
+
+## Instalação do Módulo **Front-End**
+
+## Instalação do Módulo **Middleware**
+
+## Instalação do Módulo **Core**
+
 Take me to [clonando um repositório](#criando-um-novo-repositório-no-servidor)
 
 ## Adicionando uma nova chave pública ao arquivo de chaves autorizadas
