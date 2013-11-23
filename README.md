@@ -43,7 +43,7 @@
 
 Mova sua chave _*.pub_ para qualquer pasta:
 
-	$ cat _<path-da-chave>_/*.pub >> ~/.ssh/authorized_files
+	$ cat <path-da-chave>/*.pub >> ~/.ssh/authorized_files
 
 > O usuário cuja chave foi adicionada agora terá permissão de leitura/escrita nos repositórios.
 
@@ -52,13 +52,13 @@ Mova sua chave _*.pub_ para qualquer pasta:
 Entre no diretório onde os repositórios irão ficar:
 
 	$ cd ~/
-	$ mkdir _<nome-do-repositorio>_.git && cd _<nome-do-repositorio>_.git
+	$ mkdir <nome-do-repositorio>.git && cd <nome-do-repositorio>.git
 	$ git --bare init
 
 Como esse é um repositório compartilhado, então é necessário dar permissão de escrita ao grupo:
 
 	$ sudo chmod -R g+ws *
-	$ sudo chgrp -R _<nome-do-grupo>_ *
+	$ sudo chgrp -R <nome-do-grupo> *
 	$ git config core.sharedRepository true
 
 > Agora qualquer usuário cadastrado terá permissão de leitura/escrita no git através do protocolo SSH
@@ -66,7 +66,7 @@ Como esse é um repositório compartilhado, então é necessário dar permissão
 #### Clonando um repositório:
 
 	$ mkdir _<folder>_ && cd _<folder>_
-	$ git clone _<nome-do-usuario>_@_<ip-do-servidor-git>_:_<nome-do-repositorio>_.git
+	$ git clone <nome-do-usuario>@<ip-do-servidor-git>:<nome-do-repositorio>.git
 
 ## Configuração do Módulo Front-End
 
