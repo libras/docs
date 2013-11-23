@@ -1,5 +1,5 @@
 # GT-AaaS Project
-Take me to [clonando](#clonando)
+Take me to [clonando um repositório](#clonando-um-repositório)
 
 ## Adicionando uma nova chave pública ao arquivo de chaves autorizadas
 
@@ -27,8 +27,7 @@ Como esse é um repositório compartilhado, então preciso dar permissão de esc
 
 Agora qualquer usuário cadastrado terá permissão de leitura/escrita ao git através do protocolo SSH
 
-<a name="clonando"></a>
-## Clonando um repositório
+## Clonando um repositório</a>
 
 	$ mkdir new_repository && cd new_repository
 	$ git clone lavid@150.165.205.157:<nome-do-repositorio>.git
