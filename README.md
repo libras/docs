@@ -79,7 +79,7 @@ Como esse é um repositório compartilhado, então é necessário dar permissão
 ## Equipe
 
 ![alt text][leonardo]
-[leonardo]: http://d.pr/i/m1gF "Leonardo Araújo"
+[leonardo]: https://dl.dropboxusercontent.com/u/29147980/libras/avatar_leonardo.png "Leonardo Araújo"
 
 ![alt text][vandhuy]
-[vandhuy]: http://d.pr/i/Dm1W "Vandhuy Martins"
+[vandhuy]: https://dl.dropboxusercontent.com/u/29147980/libras/avatar_vandhuy.png "Vandhuy Martins"
