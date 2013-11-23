@@ -14,6 +14,29 @@
 
 ## Configuração de Ambiente
 
+### Instalar `libv8-dev`
+
+	$ sudo apt-get install libv8-dev
+
+> Local onde as bibliotecas serão instaladas: /usr/lib/libv8.so*
+
+###  Instalar `node.js`
+
+	$ sudo apt-get update
+	$ sudo apt-get install -y python-software-properties python g++ make
+	$ sudo add-apt-repository -y ppa:chris-lea/node.js
+	$ sudo apt-get update
+	$ sudo apt-get install nodejs
+
+###  Instalar `node-gyp`
+
+	$ sudo npm install -g node-gyp
+
+### Comandos para criar e compilar um módulo
+
+	$ node-gyp configure
+	$ node-gyp build
+
 ## Configuração do Git
 
 ### Adicionando uma nova chave pública ao arquivo de chaves autorizadas
